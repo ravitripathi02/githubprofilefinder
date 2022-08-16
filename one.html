@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Finder</title>
+    <link rel="stylesheet" href="three.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="wrapper">
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="nav_bar">
+                <div class="nav_left"><strong>GitHub Profile Finder</strong></div>
+                <div class="nav_right">
+                    <button class="home"> <a href="/">Home</a> </button>
+                    <button class="signup"> <a href="/">Sign Up</a> </button>
+                    <button class="login"> <a href="">Log In</a> </button>
+                </div>
+              </div>
+            <div class="main">
+                <input type="text" id="fname" name="" placeholder="Enter Github UserName">
+                <span id="search" onclick="getUser()">Search User</span>
+            </div>
+            <div class="git">
+            <div class="git_block">
+                <div class="main_info">
+                    <img src="github-logo.png" alt="avatar" id="prof_img" />
+                    <span class="name" id="name">Full Name</span>
+                    <a href="https://github.com" id="username">@full-name</a>
+                   
+                   </div>
+                   <hr>
+                   <div class="about">
+                       <div class="bio" id="bio">A full stack web developer</div>
+                       <div class="repos"><span class="repo" id="repo">23 </span> Repositories</div>
+                   </div>
+                   <hr>
+                   <div class="follow">
+                       <div class="followers"><span class="follower" id="follower">1</span> Followers</div>
+                       <div class="followings"><span class="following" id="following">23</span> Followings</div>
+                   </div>
+            </div>
+        </div>
+            <script src="index.js"></script> 
+        </div>
+    </div>
+   
+</body>
+</html>
